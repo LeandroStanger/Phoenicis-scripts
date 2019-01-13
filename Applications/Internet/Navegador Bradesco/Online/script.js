@@ -4,7 +4,7 @@ var installerImplementation = {
     run: function () {
         new OnlineInstallerScript()
             .name("Navegador Bradesco")
-            .editor(bradesco.com.br)
+            .editor(Bradesco)
             .applicationHomepage("https://navegadorexclusivo.bradesco/media/windows/instalador/Instalador.exe")
             .author("Leandro Stanger")
             .url("https://formadeacesso.bradesco.com.br")
