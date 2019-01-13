@@ -1,0 +1,12 @@
+
+{
+    "scriptName"                 : "2.0",
+    "id"                         : "2.0",
+    "compatibleOperatingSystems" : [
+        "MACOSX",
+        "LINUX"
+    ],
+    "testingOperatingSystems" : [],
+    "free"                    : true,
+    "requiresPatch"           : false
+}
