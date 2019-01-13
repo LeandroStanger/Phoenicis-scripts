@@ -2,7 +2,7 @@ include(["engines", "wine", "quick_script", "online_installer_script"]);
 
 var installerImplementation = {
     run: function () {
-        new OnlineInstallerScript()
+        new ZipScript()
             .name("IMG Tool")
             .editor("gtagarage.com")
             .applicationHomepage("https://www.gtagarage.com/mods/download.php?f=90")
