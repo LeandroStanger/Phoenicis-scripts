@@ -1,0 +1,12 @@
+
+{
+    "scriptName"                 : "5",
+    "id"                         : "5,
+    "compatibleOperatingSystems" : [
+        "MACOSX",
+        "LINUX"
+    ],
+    "testingOperatingSystems" : [],
+    "free"                    : true,
+    "requiresPatch"           : false
+}
