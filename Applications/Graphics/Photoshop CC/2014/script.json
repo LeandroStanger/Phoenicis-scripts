@@ -1,6 +1,6 @@
 {
-    "scriptName"                 : "Online",
-    "id"                         : "online",
+    "scriptName"                 : "2014",
+    "id"                         : "2014",
     "compatibleOperatingSystems" : [
         "MACOSX",
         "LINUX"
