@@ -1,8 +1,8 @@
-
 include(["engines", "wine", "quick_script", "zip_script"]);
 
 var installerImplementation = {
-    run: ZipScript () {
+    run: function () {
+        new ZipScript()
         new OnlineInstallerScript()
             .name("Photoshop CC")
             .editor("Adobe")
