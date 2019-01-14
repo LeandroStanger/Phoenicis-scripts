@@ -1,8 +1,8 @@
-include(["engines", "wine", "quick_script", "local_installer_script"]);
+include(["engines", "wine", "quick_script", "zip_script"]);
 
 var installerImplementation = {
     run: function () {
-        new LocalInstallerScript()
+        new ZipScript()
             .name("Photoshop CC")
             .editor("Adobe")
             .applicationHomepage("creative.adobe.com")
